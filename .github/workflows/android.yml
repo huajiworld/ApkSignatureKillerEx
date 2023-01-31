@@ -27,5 +27,5 @@ jobs:
     - name: l
       uses: actions/upload-artifact@v3
       with:
-         path: ./app/build/outputs/*.apk
+         path: ./app/build/outputs/
          name: 1
